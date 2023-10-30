@@ -15,7 +15,7 @@ namespace GitOutAssignment.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Json("Isabelle Kramer");
         }
 
         public IActionResult Privacy()
